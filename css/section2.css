@@ -1,0 +1,112 @@
+.selectionBox {
+    margin-top: 30vh;
+}
+
+.selectionBox img{
+    width: 100%;
+}
+
+.selectionBox div:first-child {
+    justify-content: space-evenly;
+}
+
+.selectionBox div:first-child div {
+    width: 250px;
+    height: 250px;
+    /* background-color: lightgray;  */
+}
+
+.selectionBox div:first-child div div{
+    width: 250px;
+    height: 250px;
+    /* background-color: lightgray;  */
+}
+
+.selectionBox div:last-child {
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.selectionBox div:last-child div {
+    width: 535px;
+    height: 115px;
+    /* background-color: lightgray; */
+}
+
+.selectionBox div:last-child div div{
+    width: 535px;
+    height: 115px;
+    /* background-color: lightgray; */
+}
+
+/* bird & sticker & h3 위치잡기 */
+.selectionTitle {
+    width: 200px;
+    height: 180px;
+    /* border: 1px solid red; */
+    z-index: 1;
+    top: 0%;
+    transition: 4s;
+    opacity: 0;
+}
+
+.selection h3 {
+    font-family: 'ACCchildrensky';
+    font-weight: bolder;
+    top: 55%;
+    left: 10%;
+    transform: translate(-10%, -55%);
+    transform: rotate(17deg);
+    z-index: 1;
+} 
+
+.selection .bird {
+    top: 0%;
+    left: 40%;
+    transform: translate(-40%, 0%);
+    z-index: 2;
+}
+
+.selection .sticker {
+    top: 85%;
+    left: 0%;
+    transform: translate(0%, -85%);
+    z-index: 1;
+}
+
+/* icon & cover */
+i {
+    font-size: 3rem;
+    color: white;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 1s;
+}
+
+.cover {
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 1s;
+}
+
+/* 미디어쿼리 */
+@media (max-width:1200px) {
+    .selectionTitle {
+        top: 0%;
+    }
+    .selectionBox {
+        margin-top: 25vh;
+    }
+    .selectionBox div:last-child div{
+        margin-top: 1vh; 
+    }
+
+    .selectionBox div:first-child div div{
+        margin-top: 0vh; 
+    }
+
+    .selectionBox div:last-child div div{
+        margin-top: 0vh; 
+    }
+}

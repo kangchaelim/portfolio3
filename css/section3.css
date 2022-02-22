@@ -1,0 +1,125 @@
+/* .selectionTwo {
+    background-color: #000;
+} */
+
+/* 책장, 메모, 책 자리잡기 */
+.bookshelfTwo {
+    width: 650px;
+    height: 200px;
+    /* border: 1px solid red; */
+    top: 45vh;
+    left: 10vw;
+}
+
+.yellow-shelf {
+    width: 650px;
+    height: 10px;
+    background-color: yellow;
+    bottom: 0;
+}
+
+.memo1 {
+    margin-top: 25vh;
+}
+
+.memo2 {
+    margin-top: 2vh;
+    margin-left: 20vw;
+}
+
+.memo3 {
+    margin-top: 12vh;
+    margin-left: 56vw;
+    z-index: 2;
+}
+
+.record {
+    margin-top: 33vh;
+    margin-left: 49.5vw;
+    z-index: 1;
+}
+
+.book-left-box {
+    width: 170px;
+    height: 170px;
+    left: 0;
+    bottom: 0;
+    /* border: 1px solid red; */
+    transform: rotate(180deg);
+}
+
+.book-right-box {
+    width: 170px;
+    height: 170px;
+    right: 0;
+    bottom: 0;
+    /* border: 1px solid red; */
+    transform: rotate(180deg);
+}
+
+.bookshelfTwo img{
+    width: 100%;
+    height: 0;
+    transition: 2.5s;
+    transform: rotate(180deg);
+}
+
+.selectionTwo h3 {  
+    font-weight: bolder;
+}
+
+.selectionTwo h5 {  
+    font-weight: bolder;
+    margin-top: 53vh;
+    margin-left: 53vw;
+    transform: rotate(-18deg);
+}
+
+.selectionTwo a {
+    font-family: 'ACCchildrensky';
+    text-decoration: none;
+}
+
+.bookshelfTwo a {
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+}
+
+.selectionTwo a:hover {
+    color: #2b2b2b;
+}
+
+/* 미디어쿼리 */
+@media (max-width:1200px) {
+    .bookshelfTwo {
+        margin-left: -15vw;
+    }
+    .selectionTwo img {
+        width: 20%;
+    }
+    .bookshelfTwo img {
+        width: 100%;
+    }
+    .record {
+        margin-top: 24vh;
+        margin-left: 43vw;
+    }
+    .selectionTwo h5 {  
+        margin-top: 37vh;
+        margin-left: 47vw;
+    }
+}
+
+/* 자바스크립트 효과 */
+/* .book-left {
+    width: 165px;
+    height: 0;
+    transition: 2s;
+}
+
+.book-right {
+    width: 165px;
+    height: 0;
+    transition: 2s;
+} */

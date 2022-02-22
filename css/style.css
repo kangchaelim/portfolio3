@@ -1,0 +1,63 @@
+/* init */
+*{margin: 0;padding: 0;box-sizing: border-box;}
+ul,li {list-style: none;}
+a{text-decoration: none;color: inherit;}
+body {
+    overflow-x: hidden;
+    margin-right: 0
+}
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@font-face {
+    font-family: 'ACCchildrensky';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112-2@1.0/ACCchildrensky.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* re */
+.po-re {position: relative;}
+.po-ab {position: absolute;}
+.dis-flex {display: flex;}
+.hidden{display: none;}
+.block{display: block;}
+.opa-0 {opacity: 0;}
+.opa-1 {opacity: 1;}
+.hei0{height: 0;}
+.hei100{height: 100%;}
+
+/* layout */
+main {
+    width: 100vw;
+    height: 100vh;
+    /* border: 1px solid red; */
+}
+
+.about {
+    width: 100vw;
+    height: 100vh;
+    /* border: 1px solid red; */
+}
+
+.selection {
+    width: 100vw;
+    height: 80vh;
+    border: 1px solid #fff;
+}
+
+.selectionTwo {
+    width: 100vw;
+    height: 70vh;
+    /* border: 1px solid red; */
+}
+
+.exhibition {
+    width: 100vw;
+    height: 90vh;
+    /* border: 1px solid red; */
+}
+
+footer {
+    width: 100vw;
+    height: 50vh;
+    /* border: 1px solid red; */
+}
