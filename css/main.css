@@ -96,10 +96,10 @@
         margin-top: 20vh;
     }
     .bookshelf div:last-child .book6 {
-        right: 5vw;
+        right: 6vw;
     }
     .bookshelf div:last-child .clock {
-        top: 8vw;
+        top: 2vh;
         right: 0.5vw;
     }
 }
