@@ -10,9 +10,9 @@ footer {
 
 @media (max-width:1200px) {
     footer span {
-        font-size: 0.7rem;
+        font-size: 0.5rem;
     }
     footer {
-        padding-top: 10vh;
+        padding-top: 15vh;
     }
 }

@@ -90,10 +90,10 @@
 /* 미디어쿼리 */
 @media (max-width:1200px) {
     .bookshelf {
-        margin-top: 7vh;
+        margin-top: 5vh;
     }
     .quotes {
-        margin-top: 20vh;
+        margin-top: 15vh;
     }
     .bookshelf div:last-child .book6 {
         right: 6vw;
