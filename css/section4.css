@@ -30,7 +30,8 @@
     top: 18vh;
 } 
 
-@media (max-width:1200px) {
+/* 미디어쿼리 */
+@media screen and (max-width:1023px) {
     .exhibition>div>div:first-child {
         padding-top: 15vh;
     }
@@ -39,6 +40,13 @@
     }
     .exhibition .sticker2 {
         top: 7vh;
+    }
+
+    .exhibition h3 {
+        font-size: 1.5rem;
+    }
+    .exhibition p {
+        font-size: 1rem;
     }
 }
 

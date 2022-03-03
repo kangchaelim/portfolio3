@@ -91,7 +91,7 @@ i {
 }
 
 /* 미디어쿼리 */
-@media (max-width:1200px) {
+@media (max-width: 1023px) {
     .selectionTitle {
         top: 0%;
     }
@@ -99,7 +99,7 @@ i {
         margin-top: 25vh;
     }
     .selectionBox div:last-child div{
-        margin-top: 1vh; 
+        margin-top: 1vh;
     }
 
     .selectionBox div:first-child div div{
@@ -108,5 +108,13 @@ i {
 
     .selectionBox div:last-child div div{
         margin-top: 0vh; 
+    }
+
+    .selection h3 {
+        font-size: 1.5rem;
+        top: 55%;
+        left: 15%;
+        transform: translate(-15%, -55%);
+        transform: rotate(17deg);
     }
 }
