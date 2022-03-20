@@ -24,28 +24,38 @@
 .about img:nth-child(1) {
     left: 5vw;
     top: 40vh;
+    opacity: 0;
 }
 
 .about img:nth-child(2) {
     left: 30vw;
     top: 15vh;
+    opacity: 0;
 }
 
 .about img:nth-child(3) {
     left: 45vw;
     top: 60vh;
+    opacity: 0;
 }
 
 .about img:nth-child(4) {
     left: 60vw;
     top: 25vh;
+    opacity: 0;
 }
 
 .about img:nth-child(5) {
     left: 80vw;
     top: 55vh;
+    opacity: 0;
 }
 
+.about img {
+    transition: 500ms;
+}
+
+/* 미디어쿼리 */
 @media screen and (min-width:768px) and (max-width: 1023px) {
     .about h3 {
         font-size: 1.8rem;
@@ -71,10 +81,10 @@
 }
 
 /* 자바스크립트 효과 */
-.img-wrap {
+/* .img-wrap {
     left: 80vw;
     transition: 60s;
-}
+} */
 
 .aboutTxt {
     opacity: 0;

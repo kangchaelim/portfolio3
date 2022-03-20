@@ -1,31 +1,27 @@
 // section1
-// about 사진 애니메이션
+// about 사진 fadeIn & fadeOut
 const imgWrap = document.querySelector('body .about .img-wrap');
+const slides = document.querySelectorAll('.about img');
 console.log(imgWrap);
+console.log(slides);
 
 window.addEventListener('scroll', ()=>{
     if(scrollY >= 500){
+        let num = 0;
         setInterval(()=>{
-            imgWrap.style.left = '-100vw';
-        }, 100)
+            if(num < slides.length) {
+                slides[num].style.opacity = "1";
+                num += 1;
+              } 
+              else {
+                num = 0;
+                for (let i = 0; i < slides.length; i++) {
+                  slides[i].style.opacity = "0";
+                }
+              }
+        }, 2000)
     }
 });
-
-// window.addEventListener('scroll', ()=>{
-//     if(scrollY >= 600){
-//         setInterval(()=>{
-//             for(let k = 0; k < imgWrap.length; k++){
-//                 if(imgWrap[k].style.left === '100vw'){
-//                     imgWrap[k].style.left = '-100vw';
-//                 }
-//                 else if (imgWrap[k].style.left === '-100vw'){
-//                     imgWrap[k].style.left = '100vw';
-//                 }
-                   
-//             }
-//         }, 100)
-//     }
-// });
 
 // 스크롤 시 aboutTxt 등장
 const aboutTxt = document.querySelector('body .aboutTxt');
