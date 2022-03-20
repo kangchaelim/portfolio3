@@ -2,8 +2,8 @@
 // about 사진 fadeIn & fadeOut
 const imgWrap = document.querySelector('body .about .img-wrap');
 const slides = document.querySelectorAll('.about img');
-console.log(imgWrap);
-console.log(slides);
+// console.log(imgWrap);
+// console.log(slides);
 
 window.addEventListener('scroll', ()=>{
     if(scrollY >= 500){
