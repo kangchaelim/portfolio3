@@ -11,6 +11,3 @@ window.addEventListener('load', ()=>{
     //     bookHeight[i].style.transform = 'rotate(-180deg)';
     //     }   
 })
-
-// 랜덤 글귀
-
